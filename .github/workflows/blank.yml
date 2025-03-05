@@ -7,7 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello
-        run: echo "hello world"
+        run: |
+          echo "hello world"
+          echo "hello world"
+          echo "hello world"
+          echo "hello world"
+          |
       - name: Ubuntu version
         run: echo "hello world"
       - name: Print Bye
