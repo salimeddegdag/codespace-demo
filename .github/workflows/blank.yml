@@ -12,7 +12,8 @@ jobs:
           echo "hello world"
           echo "hello world"
           echo "hello world"
-          |
+          python3 --version
+          
       - name: Ubuntu version
         run: echo "hello world"
       - name: Print Bye
